@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 //apply plugin: 'com.google.gms.google-services'
-
 android {
     signingConfigs {
         debug {
@@ -46,5 +45,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
 }
 

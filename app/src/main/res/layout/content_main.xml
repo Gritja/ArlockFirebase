@@ -13,18 +13,12 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="108dp" />
 
-    <Button
-        android:id="@+id/button_ok"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="60dp">OK</Button>
-
     <EditText
         android:id="@+id/edittext_input"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="7dp"></EditText>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="225dp"></EditText>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
